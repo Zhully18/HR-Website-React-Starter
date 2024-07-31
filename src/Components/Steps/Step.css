@@ -1,0 +1,55 @@
+.how-we-work{
+    text-align: center;
+    padding: 30px 20px;
+}
+.how-we-work h2{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+.how-we-work p{
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 40px;
+}
+.icon_background{
+    display: inline-block;
+    padding: 0.7rem;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 1rem;
+    background-color: #ff5f1f;
+    color: #fff;
+}
+.icon_background h2{
+    font-size: 36px;
+}
+.steps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.step{
+    flex: 1;
+    max-width: 300px;
+    margin: 40px;
+    text-align: center;
+}
+.step h3{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #000;
+}
+.step p{
+    font-size: 1.1rem;
+}
+@media screen and (max-width: 480px){
+    .steps{
+        display: flex;
+        flex-direction: column;
+    }
+    .step{
+        margin: 0;
+    }
+}

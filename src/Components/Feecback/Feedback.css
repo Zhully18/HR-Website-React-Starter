@@ -1,0 +1,64 @@
+.feedback{
+    padding: 5px 40px;
+    height: 75vh;
+    background-color: #000;
+    color: #fff;
+    overflow-x: hidden;
+}
+.feedback h5{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.customers{
+    margin-top: 30px;
+    display: flex;
+    gap: 40px;
+    overflow-x: auto;
+    padding: 10px 0;
+}
+.customers .item{
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid #666;
+    border-radius: 10px;
+    padding: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.customers .item:nth-child(2){
+    background-color: #fff;
+    color: #000;
+}
+.customers .item p{
+    line-height: 22px;
+    font-size: 14px;
+}
+.item .user{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.item .user p{
+    font-size: 12px;
+}
+.item  .comment h2{
+    color: #ff5f1f;
+}
+.user img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* set height for scroll bar */
+.feedback .customers::-webkit-scrollbar{
+    height: 8px;
+}
+.feedback .customers::-webkit-scrollbar-thumb{
+    background: #ff5f1f;
+    border-radius: 10px;
+}
